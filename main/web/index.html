@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Battery Realtime</title>
+    <link rel="stylesheet" href="style.css?v=12" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo"></div>
+        <h1>Battery Realtime</h1>
+      </div>
+
+      <!-- Login -->
+      <div id="auth" class="card">
+        <p class="muted">Đăng nhập để xem dữ liệu thiết bị.</p>
+
+        <div class="row">
+          <input id="email" type="email" placeholder="you@example.com" />
+        </div>
+
+        <div class="row">
+          <input id="password" type="password" placeholder="Mật khẩu" />
+        </div>
+
+        <div class="row">
+          <button id="loginPwd">
+            <span class="btn-text">Đăng nhập</span>
+            <span class="spinner"></span>
+          </button>
+        </div>
+
+        <p class="muted">Tài khoản do bạn tạo sẵn trong Supabase.</p>
+      </div>
+
+      <!-- App -->
+      <div id="app" class="card" hidden>
+        <div class="right"><button id="logout" class="secondary">Đăng xuất</button></div>
+        <div id="list" class="list">
+          <div class="skeleton"></div>
+          <div class="skeleton"></div>
+          <div class="skeleton"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Alert top-center -->
+    <div id="alert" class="alert" hidden></div>
+
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="app.js?v=10"></script>
+  </body>
+</html>

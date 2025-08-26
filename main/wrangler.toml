@@ -1,0 +1,6 @@
+name = "battery-api"
+main = "src/index.ts"
+compatibility_date = "2025-08-22"
+
+[vars]
+SUPABASE_URL = "https://pzfhuslyblxogvuhznve.supabase.co"

@@ -1,7 +1,7 @@
 # Battery Realtime
 
 A small personal project to monitor battery status of multiple devices
-(iPads, Mac) and view them on a web dashboard in real time.
+(Ipads, Iphones) and view them on a web dashboard in real time.
 
 ## Features
 

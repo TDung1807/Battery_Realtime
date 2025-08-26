@@ -1,7 +1,7 @@
 // === Config Supabase ===
-const SB_URL  = "https://pzfhuslyblxogvuhznve.supabase.co";
-const SB_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB6Zmh1c2x5Ymx4b2d2dWh6bnZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU4NDIwMzAsImV4cCI6MjA3MTQxODAzMH0.m3Jbobn6snjEEw7JNk-7NNlYaNQYpYUMw4rMiKFPvM8";
-const ALLOWED_EMAILS = ["tiendunghuong4@gmail.com"]; 
+const SB_URL  = "";
+const SB_ANON = "";
+const ALLOWED_EMAILS = [""];   // config yours in supabase setting
 
 const sb = supabase.createClient(SB_URL, SB_ANON);
 
